@@ -4,19 +4,19 @@ let rollDice = function () {
 };
 
 // Business Logic for Players:
-function Players(player1, player2){
-  this.player1 = player1;
-  this.player2 = player2;
+function Players(){
+  
 };
 
 
 // User Interface Logic:
 
 $(document).ready(function() {
-  $('.player1Roll').submit(function(event) {
+  $('.player1').submit(function(event) {
     event.preventDefault();
-    // we need to set a const to call on to return our value!!
-    $('.player1Dice1').text(rollDice);
+    testVar = rollDice();
+    $('.player1Dice1').text(testVar);
+    
   });
 
   $('.player1Hold').submit(function (event) {
@@ -30,24 +30,3 @@ $(document).ready(function() {
 //  var x = Math.floor((Math.random() * 6) + 1);
 //  document.getElementById("demo").innerHTML = x;
 // }
-
-// Dice and 2
-// Total 2 dice
-// Score total
-/*
-$('.player2Roll').submit(function(event){
-    event.preventDefault();
-  })
-
-  $('.player2Hold').submit(function (event) {
-    event.preventDefault();
-  })
-
-
-  // Business Logic for GameBoard:
-// function GameBoard() {
-// this.player1 = player1REE
-// this.player2 = player2ree
-// }
-// GameBoard.prototype.addPlayer1
-*/
