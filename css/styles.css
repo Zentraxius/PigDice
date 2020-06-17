@@ -2,3 +2,19 @@ body {
   text-align: center;
   background-color: antiquewhite;
 }
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col-md-4 {
+  border: 3px groove black;
+}
+
+#redBG {
+  background-color: rgb(212, 96, 96);
+}
+#blueBG {
+  background-color: rgb(109, 109, 236);
+}
