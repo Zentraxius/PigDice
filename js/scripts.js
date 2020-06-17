@@ -1,3 +1,12 @@
-// Business Logic
+// Business Logic for GameBoard:
+function GameBoard() {
 
-// User Interface Logic
+}
+
+// Business Logic for Players:
+
+// User Interface Logic:
+$(document).ready(function) {
+
+  event.preventDefault();
+}

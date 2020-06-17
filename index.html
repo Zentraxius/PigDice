@@ -16,12 +16,39 @@
   <div class="container">
     <h1>PIG DICE</h1>
     <button type="submit">START GAME</button>
-    <div>
-      <div>
-        <button>PLAYER 1</button>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="player1">
+          <h2>Player1</h2>
+          <button>Roll</button>
+          <button>Hold</button>
+          <p class="player1Dice1"></p>
+          <p class="player1Dice2"></p>
+          <p class="player1Score"></p>
+        </div>
       </div>
-      <div>
-        <button>PLAYER 2</button>
+      <div class="col-md-4" id="spacer">
+        <br>
+        <br>
+        <br>
+        <p>The game of Pig Dice may seem simple, but it is a test of greed, luck, and strategy.</p>
+        <p>Each player may roll as many times as they want on their turn, and save their roll at any time, rolling 2 1d6 dice.</p>
+        <p>If at any point you roll a 1, on either of your dice, your turn is forcibly ended and your score for that turn is 0</p>
+        <p>Will you take your low roll and guaranteed points? Or will you try to push for the maximum score of 12 in a turn?</p>
+        <p>When player1 has ended their turn, regardless of score, player2 will begin their turn under the same rules</p>
+        <p>First player to score a total of 100 or more wins!</p>
+      </div>
+      <div class="col-md-4">
+        <div class="player2">
+          <h2>Player2</h2>
+          <button>Roll</button>
+          <button>Hold</button>
+          <p class="player2Dice1"></p>
+          <p class="player2Dice2"></p>
+          <p class="player2Score"></p>
+        </div>
       </div>
     </div>
 </body>
