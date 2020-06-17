@@ -33,7 +33,7 @@ Players.prototype.rollsOther = function() {
 // this.totalScore += this.turnScore will show the grand total score
 // add functionality to reset turn score
 // use same structure for each player - could show/hide each of the players triggered by clicking on hold button or rolling a 1
-// User Interface Logic:
+// User Interface Logic: .
 
 $(document).ready(function() {
 //////////////////////////////////////////////
